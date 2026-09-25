@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+examples/**/node_modules/
+
+# Build outputs
+dist/
+coverage/
+*.tsbuildinfo
+.turbo/
+.next/
+out/
+examples/**/.next/
+examples/**/out/
+
+# Pack / publish artifacts
+*.tgz
+*.tar.gz
+
+# Env & secrets (keep examples)
+.env
+.env.*
+!.env.example
+examples/**/.env
+examples/**/.env.local
+!examples/**/.env.example
+
+# Logs & OS
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+
+# Editors / local tooling
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+*.swp
+*.swo
+
+# Test / cache
+.cache/
+.vitest/
