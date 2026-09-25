@@ -1,6 +1,5 @@
 # Dependencies
 node_modules/
-examples/**/node_modules/
 
 # Build outputs
 dist/
@@ -9,20 +8,16 @@ coverage/
 .turbo/
 .next/
 out/
-examples/**/.next/
-examples/**/out/
+examples/
 
 # Pack / publish artifacts
 *.tgz
 *.tar.gz
 
-# Env & secrets (keep examples)
+# Env & secrets
 .env
 .env.*
 !.env.example
-examples/**/.env
-examples/**/.env.local
-!examples/**/.env.example
 
 # Logs & OS
 *.log

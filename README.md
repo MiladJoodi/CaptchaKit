@@ -4,6 +4,8 @@ Self-hosted CAPTCHA for React and Next.js. No database, Redis, or external CAPTC
 
 Answers are generated and verified on the server. The browser never receives the plaintext answer.
 
+**Live demo:** [CaptchaKit.netlify.app](https://captchakit.netlify.app/)  
+
 ## Features
 
 * CAPTCHA types: `text`, `number`, `math`, `image`
@@ -279,4 +281,4 @@ CAPTCHA helps reduce automated abuse but is not a guarantee against bypass.
 
 ## License
 
-MIT
+MIT © [Milad Joodi](https://www.linkedin.com/in/joodi/)

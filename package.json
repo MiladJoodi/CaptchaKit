@@ -1,1 +1,79 @@
-{"name":"captchakit","version":"0.2.3","description":"Self-hosted CAPTCHA for React and Next.js — no database, Redis, or external provider required","license":"MIT","type":"module","engines":{"node":">=18"},"files":["dist","LICENSE","README.md"],"main":"./dist/index.cjs","module":"./dist/index.js","types":"./dist/index.d.ts","exports":{".":{"types":"./dist/index.d.ts","import":"./dist/index.js","require":"./dist/index.cjs"},"./server":{"types":"./dist/server/index.d.ts","import":"./dist/server/index.js","require":"./dist/server/index.cjs"},"./styles.css":"./dist/styles.css","./package.json":"./package.json"},"sideEffects":["**/*.css"],"scripts":{"build":"tsup && tsup --config tsup.server.config.ts","test":"vitest run","test:watch":"vitest","typecheck":"tsc --noEmit","prepack":"pnpm build"},"peerDependencies":{"react":"^18.0.0 || ^19.0.0"},"devDependencies":{"@testing-library/react":"^16.3.0","@types/node":"^22.15.21","@types/react":"^19.1.4","@types/react-dom":"^19.1.5","jsdom":"^26.1.0","react":"^19.1.0","react-dom":"^19.1.0","tsup":"^8.5.0","typescript":"^5.8.3","vitest":"^3.1.4"},"keywords":["captcha","react","nextjs","next.js","security","self-hosted","persian","rtl"],"repository":{"type":"git","url":"git+https://github.com/MiladJoodi/CaptchaKit.git"},"bugs":{"url":"https://github.com/MiladJoodi/CaptchaKit/issues"},"homepage":"https://github.com/MiladJoodi/CaptchaKit#readme"}
+{
+  "name": "captchakit",
+  "version": "0.2.3",
+  "description": "Self-hosted CAPTCHA for React and Next.js — no database, Redis, or external provider required",
+  "license": "MIT",
+  "author": {
+    "name": "Milad Joodi",
+    "url": "https://www.linkedin.com/in/joodi/"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./server": {
+      "types": "./dist/server/index.d.ts",
+      "import": "./dist/server/index.js",
+      "require": "./dist/server/index.cjs"
+    },
+    "./styles.css": "./dist/styles.css",
+    "./package.json": "./package.json"
+  },
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "scripts": {
+    "build": "tsup && tsup --config tsup.server.config.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "prepack": "pnpm build"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^16.3.0",
+    "@types/node": "^22.15.21",
+    "@types/react": "^19.1.4",
+    "@types/react-dom": "^19.1.5",
+    "jsdom": "^26.1.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.4"
+  },
+  "keywords": [
+    "captcha",
+    "react",
+    "nextjs",
+    "next.js",
+    "security",
+    "self-hosted",
+    "persian",
+    "rtl"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiladJoodi/CaptchaKit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MiladJoodi/CaptchaKit/issues"
+  },
+  "homepage": "https://captchakit.netlify.app/"
+}
