@@ -1,6 +1,6 @@
 {
   "name": "captchakit",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Self-hosted CAPTCHA for React and Next.js — no database, Redis, or external provider required",
   "license": "MIT",
   "author": {
